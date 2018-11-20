@@ -21,7 +21,7 @@ public class MultipleElements {
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
-//kkk
+
     }
 
     @BeforeMethod
